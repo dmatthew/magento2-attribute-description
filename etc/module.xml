@@ -3,6 +3,7 @@
     <module name="Dmatthew_AttributeDescription" setup_version="0.0.1">
         <sequence>
             <module name="Magento_Eav"/>
+            <module name="Magento_Catalog"/>
         </sequence>
     </module>
 </config>
