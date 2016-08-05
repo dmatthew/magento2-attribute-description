@@ -3,4 +3,8 @@
     <preference for="Magento\Catalog\Block\Adminhtml\Product\Attribute\Edit\Tabs" type="Dmatthew\AttributeDescription\Block\Adminhtml\Product\Attribute\Edit\Tabs" />
     <preference for="Magento\Catalog\Model\ResourceModel\Eav\Attribute" type="Dmatthew\AttributeDescription\Model\Entity\Attribute" />
     <preference for="Magento\Catalog\Model\ResourceModel\Attribute" type="Dmatthew\AttributeDescription\Model\ResourceModel\Entity\Attribute" />
+    <preference for="Magento\ConfigurableProduct\Model\Product\Type\Configurable\Attribute" type="Dmatthew\AttributeDescription\Model\Product\Type\Configurable\Attribute" />
+    <type name="Magento\ConfigurableProduct\Model\ConfigurableAttributeData">
+        <plugin name="dmatthew_configurable_attributes_data" type="Dmatthew\AttributeDescription\Plugin\Model\ConfigurableAttributeDataPlugin" sortOrder="1"/>
+    </type>
 </config>
