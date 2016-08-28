@@ -24,6 +24,17 @@ class Attribute extends \Magento\Catalog\Model\ResourceModel\Eav\Attribute
      * @param int|null $storeId
      * @return string
      */
+    public function getDescription($storeId = null)
+    {
+        return $this->getStoreDescription($storeId);
+    }
+
+    /**
+     * Return store description of attribute.
+     *
+     * @param int|null $storeId
+     * @return string
+     */
     public function getStoreDescription($storeId = null)
     {
         if ($this->hasData('store_description')) {
