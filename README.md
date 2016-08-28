@@ -1,4 +1,4 @@
-# magento2-attribute-description
+# Magento_AttributeDescription Module
 
 Easily add the ability to add desciptions to your product attributes.
 
