@@ -1,6 +1,6 @@
 # Dmatthew_AttributeDescription Module for Magento 2
 
-Magento 2 module that adds the ability to add desciptions to product attributes. Add descriptions to configurable attributes and display them on your product view pages. Use attribute descriptions to help explain complex attributes to your customers. Attribute descriptions are stored in a new `eav_attribute_description` table.
+This is a Magento 2 module that adds the ability to add desciptions to product attributes. Add descriptions to configurable attributes and display them on your product view pages. Use attribute descriptions to help explain complex attributes to your customers. If you have unique attributes that need additional explanations beyond the attribute's name then this module will work for you. Attribute descriptions are stored in a new `eav_attribute_description` table.
 
 ## Managing Attribute Descriptions Though the Admin
 ![Screenshot](/docs/screenshots/admin_attribute_edit_descriptions.png)
