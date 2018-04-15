@@ -4,8 +4,6 @@ namespace Dmatthew\AttributeDescription\Block\Adminhtml\Attribute\Edit\Options;
 
 /**
  * Attribute add/edit form options tab
- *
- * @author     Magento Core Team <core@magentocommerce.com>
  */
 class Descriptions extends \Magento\Backend\Block\Template
 {
