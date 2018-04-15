@@ -26,6 +26,7 @@ class CatalogAttributeSaveAfterObserver implements ObserverInterface
      */
     public function execute(EventObserver $observer)
     {
+        /** @var \Dmatthew\AttributeDescription\Model\Entity\Attribute $attribute */
         $attribute = $observer->getEvent()->getAttribute();
         $storeDescriptions = $attribute->getFrontendDescription();
         if (is_array($storeDescriptions)) {
